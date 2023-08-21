@@ -11,7 +11,7 @@ const numberSlice = createSlice({
             state.numberValue++
         }, 
         decrement : (state) =>{
-            state.counterValue--;
+            state.numberValue--;
         },
     }
 })
